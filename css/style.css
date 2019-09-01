@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+*
+{
+    margin: auto;
+    padding: 0;
+    font-family: 'PT Sans' , sans-serif;
+}
+body
+{
+    background-image: linear-gradient(-45DEG,#9DBEFF, #FED9FF);
+}
+.avatar
+{
+    margin-top: 80px;
+    margin-left: 50px;
+    float: left;
+}
+.avatar img
+{
+    border-radius: 50%;
+}
+.info
+{
+    margin-top: 120px;
+    margin-left: 65px;
+    float: left;
+    content: close-quote;
+    display: inline;
+    font-size: larger;
+}
+.About
+{
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+    font-family: 'PT Sans' , sans-serif;
+    background: linear-gradient(to left,rgba(255,150,246,.8),rgba(91,149,213,.8));
+    background-position: left center;
+    display: inline;
+    font-size: medium;
+}
+.flip-card
+{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid transparent;
+    perspective: 1000px;
+    position: relative;
+    float: left;
+    height: fit-content;
+    margin: 50px;
+    display: block; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner
+{
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front
+{
+    background-color: transparent;
+    height: fit-content;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back
+{
+    background-color: transparent;
+    height: fit-content;
+    color: black;
+    transform: rotateY(180deg);
+}
+.flip-card1
+{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid transparent;
+    perspective: 1000px;
+    position: relative;
+    float: left;
+    height: fit-content;
+    margin: 50px;
+    display: block; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner1
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card1:hover .flip-card-inner1
+{
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front1, .flip-card-back1
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front1
+{
+    background-color: transparent;
+    height: fit-content;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back1
+{
+    background-color: transparent;
+    height: fit-content;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.flip-card2
+{
+    background-color: transparent;
+    width: 300px;
+    border: 1px solid transparent;
+    perspective: 1000px;
+    position: relative;
+    float: left;
+    height: fit-content;
+    margin: 50px;
+    display: block; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner2
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card2:hover .flip-card-inner2
+{
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front2, .flip-card-back2
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front2
+{
+    background-color: transparent;
+    height: fit-content;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back2
+{
+    background-color: transparent;
+    color: black;
+    height: fit-content;
+    transform: rotateY(180deg);
+}
+.footer
+{
+    padding: 10px 0 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    background: linear-gradient(153deg,#FBC8D3,#FD5F92);
+    color: Black;
+    text-align: center;
+}
+.more
+{
+    position: relative;
+    display: block;
+    background: linear-gradient(to left,rgba(255,150,246,.8),rgba(91,149,213,.8));
+    font-size: x-large;
+    text-align: justify;
+    padding: 110px;
+    margin-bottom:5vw;
+}
+#pro a
+{
+    color: Black;
+    text-decoration: none;
+}
+#skills a
+{
+    color: Black;
+    text-decoration: none;
+}
+#Hobby a
+{
+    color: Black;
+    text-decoration: none;
+}
+.project1
+{
+    margin-top: 60px !important;
+    display: block;
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom:7.5vw;
+}
+.abstracts p
+{
+    text-align: left !important;
+}
+table
+{
+    margin-left:450px;
+    display: table;
+    margin-top:10vw;
+    font-size: large;
+    table-layout:auto;
+    
+}
+tr
+{
+        height: 75px;
+}
+.Address
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    float: left;
+    font-family: 'PT Sans' , sans-serif;
+    background: linear-gradient(to left,rgba(255,150,246,.8),rgba(91,149,213,.8));
+    background-position: left center;
+    display: inline;
+    font-size: medium;
+    
+}
+.Mail
+{
+     margin-top: 60px;
+     margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    float: left;
+    font-family: 'PT Sans' , sans-serif;
+    background: linear-gradient(to left,rgba(91,149,213,.8),rgba(255,150,246,.8));
+    background-position: left center;
+    display: inline;
+    font-size: medium;
+}
+.resume
+{
+    margin-top:10vw;
+    text-align:center;
+    text-decoration:none;
+    color:Black;
+}
+.add
+{
+    display: inline;
+    width: 100%;
+}
+.btn-grd
+{
+    background: linear-gradient(54deg,#9164FF,#8BFFF4)!important;
+}
