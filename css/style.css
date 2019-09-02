@@ -55,10 +55,10 @@ body
     float: left;
     height: fit-content;
     margin: 50px;
-    display: block; /* Remove this if you don't want the 3D effect */
+    display: block;
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner
 {
     position: relative;
@@ -69,13 +69,13 @@ body
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner
 {
     transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front, .flip-card-back
 {
     position: absolute;
@@ -84,7 +84,7 @@ body
     backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front
 {
     background-color: transparent;
@@ -92,7 +92,6 @@ body
     color: black;
 }
 
-/* Style the back side */
 .flip-card-back
 {
     background-color: transparent;
@@ -111,10 +110,10 @@ body
     float: left;
     height: fit-content;
     margin: 50px;
-    display: block; /* Remove this if you don't want the 3D effect */
+    display: block; 
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner1
 {
     position: relative;
@@ -125,13 +124,13 @@ body
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card1:hover .flip-card-inner1
 {
     transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front1, .flip-card-back1
 {
     position: absolute;
@@ -140,7 +139,7 @@ body
     backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front1
 {
     background-color: transparent;
@@ -148,7 +147,7 @@ body
     color: black;
 }
 
-/* Style the back side */
+
 .flip-card-back1
 {
     background-color: transparent;
@@ -167,10 +166,10 @@ body
     float: left;
     height: fit-content;
     margin: 50px;
-    display: block; /* Remove this if you don't want the 3D effect */
+    display: block; 
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner2
 {
     position: relative;
@@ -181,13 +180,13 @@ body
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card2:hover .flip-card-inner2
 {
     transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front2, .flip-card-back2
 {
     position: absolute;
@@ -196,7 +195,7 @@ body
     backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front2
 {
     background-color: transparent;
@@ -204,7 +203,7 @@ body
     color: black;
 }
 
-/* Style the back side */
+
 .flip-card-back2
 {
     background-color: transparent;
