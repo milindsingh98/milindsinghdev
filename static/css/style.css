@@ -616,7 +616,7 @@ body {
 
 .form-control, textarea {
   max-width: 400px;
-  color: #fff;
+  /* color: #fff; */
   letter-spacing: 1px;
 }
 
