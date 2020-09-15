@@ -1,89 +1,155 @@
-<html>
+<html lang="en">
 <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <!-- Bootstrap CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding the bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="static/css/style.css">
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Contact</title>
+    <title>Milind Singh Dev</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">Milind Singh Dev</a>
-    </div>
-    <ul class="nav navbar-nav">
-     
-      <li><a href="Projects.html">Projects</a></li>
-      <li><a href="Skills.html">Skills</a></li>
-      <li><a href="hobbies.html">Hobbies</a></li>
-      <li class="active"><a href="Contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-<div>
-    <div class="row">
-        <div class="col-xs-5 col-sm-6 col-lg-4">
-            <div class="avatar">
-                <img src="src/img8.jpg" alt="profile" style="width: 25vw; height: 25vw;" alt="Mera Photo" />
-            </div>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="index.html">Milind Singh Dev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item " >
+              <a class="nav-link" href="skills.html">Skills </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/milindsingh98" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/milindsinghdev/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
         </div>
-        <div class="col-xs-7 col-sm-6 col-lg-8">
+      </nav>
+
+
+
+    <!-- Image and the resume section -->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 " style="align-content: center;">
+                <div class = "img-container avatar">
+                    <img src="I:\Portfolio 2.0\static\images\img8.jpg"  class="img-fluid avatar" alt="Portfolio image"  style="margin-top: 20px; display: block; max-width: 80%;">
+                </div>
+          </div>
+          <div class="col-sm-8" style="text-align-last: center; background: transparent; margin: auto;">
             <div class="resume">
                 <h1>
-                  <a href = "src/Milind_Singh_Dev_Resume.pdf" download> <img src="https://img.icons8.com/nolan/96/000000/resume.png"><br />Resume Download</a>  </h1>
+                  <a href = "static/files/Resume_Milind_Singh_Dev.pdf" download> <img src="https://img.icons8.com/nolan/96/000000/resume.png"><br />Check out the Resume!</a>  </h1>
             </div>
+          </div>
         </div>
-</div>
-</div>
-<div class = "add">
-<div class = "Address">
-        Milind Singh Dev <br />
-        ------------------------------<br />
-        31, Trimurti Complex,<br />
-        Manwa Khera Road,Sector-4<br />
-        Udaipur, Rajasthan,313002<br />
-</div>
-<div class = "mail">
-        Contact:<br />
-        ------------------------------<br />
-        Primary E-mail- Milindsingh98@gmail.com </br>
-        Secondary E-mail- milindsinghdev_nkd@srmuniv.edu.in <br />
-        <br />
-</div>
-<div>
-<br />
-<br /><br /><br />
-<div class="footer" style="font-size: 12px;">
-        <div style="float: left; margin-left:20px">
-            <i class="fa fa-copyright"></i>Milind Singh Dev, 2019
+      </div>
+<br>
+<br>
+    <!-- Contact Form -->
+    <!-- Default form contact -->
+    <div class="container" >
+    <form class=" text-justify" action="https://formspree.io/xzbkprbn">
+
+        <p class="h2 mb-4">Contact Me!</p>
+
+        <!-- Name -->
+        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+        <!-- Email -->
+        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+
+        <!-- Message -->
+        <div class="form-group">
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
         </div>
-        <div style="float: right; font-size: 24px; margin-right:20px">
-           <a href = "mailto:milindsingh98@gmail.com" target="_blank"><i class='fab   fa-google' style='font-size:24px'></i></a>
-            <a href = "https://www.facebook.com/milind.singh.188" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href = "https://www.instagram.com/milind_singh_dev/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href = "https://github.com/milindsingh98" target="_blank"><i class="fab fa-github-square"></i></a>
-            <a href = "https://www.linkedin.com/in/milindsinghdev/" target="_blank""><i class="fab fa-linkedin-square"></i></a>
-            <a href = "https://www.milindsinghdev.wordpress.com" target="_blank"><i class="fab fa-wordpress"></i></a>
-            <a href = "https://www.hackerrank.com/milindsingh98/" target="_blank"><i class="fab fa-hackerrank" style="font-size:24px"></i></a>
+
+        <!-- Copy -->
+        <div class="custom-control custom-checkbox mb-4">
+            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
         </div>
-    </div>
-    </div>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
+
+        <!-- Send button -->
+        <button class="btn btn-info btn-flex" type="submit">Send</button>
+
+    </form>
+</div>
+    <!-- Default form contact -->
+            
+
+
+    <!-- Footer -->
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Milind Singh Dev <i>Currently working as a Programmer analyst trainee at Cognizant. </i> 
+                Graduated from SRM Institute of Science and Technology in Computer Science Engineering. I have completed my 
+                internship with Cognizant Technology Solutions from January 2020 to May 2020, under the domain Cognizant
+                 Digital Business– AIA (Artificial Intelligence and Analytics). I have done various projects using Python, 
+                 Machine learning, Data Science, HTML- CSS, flask, Teradata, Oracle, and MySQL database. </p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Key Skills</h6>
+              <ul class="footer-links">
+                <li>Machine Learning</li>
+                <li>Python</li>
+                <li>Data Structures</li>
+                <li>C/C++</li>
+                <li>MySQL and Teradata</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+  
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="milindsinghdev"><a class="LI-simple-link" href='https://in.linkedin.com/in/milindsinghdev?trk=profile-badge'>Milind Singh Dev</a></div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+           <a href="#">Milind Singh Dev</a>.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/milind.singh.188/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/milindsingh98"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/milind_singh_dev/"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="github" href="https://github.com/milindsingh98" target="_blank"><i class="fa fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    
+
+        <!-- Javascript files -->
+        <!-- bootstrap js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <script type="text/javascript" src="static/js/func.js"></script>
+    </body>
 </html>

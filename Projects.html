@@ -1,798 +1,175 @@
-﻿<html>
+<html lang="en">
 <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
-    <title>Projects</title>
-    <script type="text/javascript">
-        function btn1() {
-            document.getElementById('project01').style.display = "block";
-            document.getElementById('btn1').style.display = "none";
-        }
-        function btn2() {
-            document.getElementById('project02').style.display = "block";
-            document.getElementById('btn2').style.display = "none";
-        }
-        function btn3() {
-            document.getElementById('project03').style.display = "block";
-            document.getElementById('btn3').style.display = "none";
-        }
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding the bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Milind Singh Dev</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-inverse navbar-top">
-    <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">Milind Singh Dev</a>
-    </div>
-    <ul class="nav navbar-nav">
-      
-      <li class="active"><a href="#">Projects</a></li>
-      <li><a href="Skills.html">Skills</a></li>
-      <li><a href="hobbies.html">Hobbies</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-    </ul>
-     </div>
-    </nav>
-    <div class="project1" id="project1">
-        <h1>
-            Optimized printer waiting time for domestic and educational purposes</h1>
-        <br />
-        <p style="text-align: left;">
-            The project deals with the domestic convenience and educational services-<br />
-            - An Android application that will ask the user to upload the file he/she wants
-            to get printed. Then the app will ask the format including margin, font, font size
-            etc.<br />
-            - The document is then uploaded to the cloud from where encapsulating with the requirements
-            it is sent to the print hub where actual printing is done.<br />
-            - The file is deleted from the cloud once the job is completed.<br />
-            - The estimated waiting time is calculated taking in considerations with the traffic,
-            the waiting time and the printing time.
-            <br />
-            - It makes printing efficient as the work is up to mark and avoids the Application
-            version printing errors.
-            <br />
-            - The account handling of the print center is simplified and the users pay for what
-            they get.
-        </p>
-        <br />
-        <div id="project01" style="display: none">
-            <p>
-                Abstract-The IoT came with the advancement in many products and services from the
-                primitive services like plumbing, carpeting to the high-end services like the website
-                development and applications. The print process still remains the same. The optimized
-                printing process is required to save time, money and wastage of paper. The printing
-                job can be given by the Mobile phones with all the formatting required by the user.
-                Through global positioning the nearest printing station is searched and the job
-                is scheduled with the expected time of arrival for the user to collect the document.
-                The online payment options and the pre-defined formatting is the thing that makes
-                it ease for usage. The arrival time and the distance is calculated by the mobile
-                devices to facilitate the user. Keywords-optimized printing, printing, print servers,
-                location-based, waiting time, global positioning systems.
-            </p>
-            <br />
-            <p>
-                <br />
-                I. INTRODUCTION Despite the numerous efforts of being completely paperless, there
-                are still some places and works in which use of paper is needed. The regulated use
-                of paper should be our first step towards going paperless. In this paper we implement
-                an IoT based printing process in which the user can print the documents through
-                their phone selecting the nearest printer hub given the GPS [1] and the printer
-                hub in return gives the user the estimated arrival time of the user when the print
-                work is done. The android application eases the use of the interface from which
-                the actions are carried on. The printing process has seen a evolution from dot matrix
-                printer to ink jet printers to modern laser jet printers. The services of the printers
-                still remain the same. The people still prefer to get the documents printed by the
-                local print centre because of the following factors. The operation and maintenance
-                of the printers is still costly and high maintenance along with the refill cartridges.
-                These factors lead to user still following up to the print centres. The print centre
-                can be any local shop which provides printing and photocopy services. The Standard
-                of work done is not always the kind of what we want but we have to negotiate with
-                the quality and demands because of the rush at these centres. The printing charges
-                when considered varies from place to place. There are not only the problems on the
-                customer side there are problems faced by the service providers also. They find
-                it difficult to calculate the total amount when there are different kind of paper
-                and different printing methods. The different files when printed then page count
-                gets misnumbered and they have to suffer a loss. The wastage of pages happens when
-                the user demands something which is not fulfilled by them. The printer maintenance
-                [5] also sums up more because of the overusage of the printers. The toner of the
-                printer because of the over usage needs maintenance too frequently. This is why
-                a platform is needed to optimize this task and problems.</p>
-            <p>
-                <br />
-                II. SERVICE PROVIDED We provide many services to the client. We provide a numerous
-                service to the user: - 1. We provide flexible time slot to the user as they can
-                have their output at their time. 2. We provide easy payment options to the user.
-                3. We provide the user a fast track option so the user can get print immediately.
-                4. Our app also recommends the shop which is nearest and with least time to complete
-                work. By using our application, the data which is uploaded on the print server then
-                we recommend the user the nearest [2] shop and the shop which take least time for
-                the work to be completed. Now after the shop is confirmed a payment option comes,
-                we can pay via cash when we get the documents back or we have various payment gateway
-                which provide the user for pre-payment. After we have selected everything, we click
-                on the get print option then the document is sent to the shop and we can get our
-                service at the chosen time slot and go to the shop to get our product delivered.
-                Through this system we provide a platform which deals with the problems faced on
-                the domestic and educational purposes. It will directly connect to the printer and
-                the user can upload the files and set it according to the needs like font, colour,
-                margin etc. It also solves the issue for managing the transactions for the printer
-                centre manager and the user pays for what he/she prints. As it locates all the available
-                print centre nearby [3] to the user location and also the waiting time for the job
-                to be done so we see a more convenient and more optimised way of doing work. By
-                providing the option for the user to schedule the print or fast-forward it, we are
-                easily able to make things fast and work efficient with less hassles like waiting
-                in a queue or standing for our work to be done now we will go to the shop only when
-                our task is completed and the user will collect the printed papers from the centre
-                by themselves. And by providing the option to pay through the app or pay on collection
-                of the printed papers the payments are also easy and more convenient for the user.
-            </p>
-            <br />
-            III. PROPOSED SYSTEM The proposed system for the model includes modules as mentioned
-            in Fig.1. The proposed system can be divided into 4 sub-partitions. They can be
-             Mobile Application  Print server  Print status and confirmation  Print hub
-            end The Mobile application is the user interface with which the user end. Here,
-            the user can upload the documents they want to get printed along with the pre-requisite
-            conditions like the font, margin, fontcolour, font size etc. The user can only upload
-            the permitted file formats on the application which are .pptx, .docx, .doc, .pdf,
-            jpeg, .png etc. The documents need to be unlocked in case the document is locked
-            because the locked document can’t be printed. After the user uploads the file and
-            enter all the requests, the file is uploaded onto the print server. The Print server
-            stores the documents temporarily till the user selects which print hub they want
-            to print the document to. The Print server gives user an option of selecting the
-            print centres according to the distance of commute and the Estimated printing time
-            [5]. It shows the estimated arrival time for the job completion which can be called
-            the sum of the commute distance and the print job time.
-            <br />
-            <br />
-            𝑒𝑠𝑡𝑖𝑚𝑎𝑡𝑒𝑑 𝑎𝑟𝑟𝑖𝑣𝑎𝑙 𝑡𝑖𝑚𝑒 = 𝑇𝐼𝑚𝑒 𝑜𝑓 𝑐𝑜𝑚𝑚𝑢𝑡𝑒 + 𝑡ℎ𝑒
-            𝑝𝑟𝑖𝑛𝑡𝑖𝑛𝑔 𝑡𝑖𝑚𝑒
-            <br />
-            <br />
-            The different modules and steps followed The estimated arrival time [7] is variable
-            to the commute time and the printing time. Consider in the case of traffic congestion
-            in the area then the Estimated time will increase by the factor of which the congestion
-            of traffic. The traffic data will be accessed through the Google Maps real time
-            and it will refresh in every 5 minutes. The print job is variable for the conditions
-            of the breakdown of the printer or the electricity supply crisis. The following
-            factors will be looked upon and used for calculating the close approximation of
-            the arrival time. After selection of the print centre the document is forwarded
-            to the user selected print centre and the real time print status and the arrival
-            time is shown to the user. Print Status[6] is given to the user in real time by
-            mentioning the queue number to which the job is being assigned to the user. The
-            estimated time will also be shown to the user along with the complete address of
-            the print centre. The print status will show the estimated time calculated by the
-            print server and the commute time between the user and the print hub. Print hub
-            is the destination where the actual printing work will take place, the requirements
-            of the user are considered here and the operations are queued up in FCFS (First
-            Come First Serve) [5] with no pre-emption. Each job is considered at the most priority
-            and the confidentiality of the user and user document is followed. The file after
-            the print job is done is deleted from the hub and the hub sends message to the user
-            about the printing process been complete. Fig. 2 includes the process flow model
-            of the architecture through which the files and process pass from the customer to
-            the print-end. The user gets the print status throughout the printing process and
-            the process gets terminated with the success message when the job is complete. It
-            includes the different process states starting from the user application where the
-            user uploads the file and gives the requirement to be fulfilled. The user then can
-            select the print hub according to their ease. The file is then shared with the print
-            hub through google cloud along with the pre-set parameters and the estimated waiting
-            time is calculated and the user can get the print status in real time. The file
-            is arranged in the queue data structure at the print hub and FCFS is followed. The
-            feedback loop consists of the print status which retrieves the waiting time to the
-            user.
-            <br />
-            <p>
-                IV. FUTURE SCOPE For future scope the application can be updated as: - 1. Using
-                recycled papers for printing process for making it eco-friendly. 2. Customizing
-                the proposed model into ATM like machines for printing through scanning the QR codes
-                of the printing or scheduling through application. 3. Using priority queue for the
-                urgent needs of the user for better services. 4. Widening the print services provided
-                by the proposed system. 5. We can add home delivery[3] feature of the printed documents.
-                6. A feature for adding more security so that the application is more secured and
-                the uploaded data is not. 7. To decrease the waiting time by optimised algorithm.
-                8. We can also provide discounts and coupon for bulk orders and cash back on various
-                payment options.</p>
-            <br />
-            <pr>VI. CONCLUSION <br />The paper represents an android application
-            which is used to have a optimised printing method for efficient and fast printing
-            methods which helps in saving time reducing paper wastage and many more. The main
-            aim of the project is overcoming the drawbacks of using the traditional printing
-            methods so that one can experience an overall enhanced way of getting the printed
-            material fast and hassle free. The application provides flexible time slot to the
-            user can have their output at their time, provides easy payment options to the user,
-            provides the user a fast track option so the user can get print immediately. And
-            also recommends the shop which is nearest and with least time to complete work.
-            By reducing all the efforts which we face in our day to day life for either standing
-            in a queue or not getting the desired output which we want or struggling through
-            not getting the right format or the way we did it or wants to be done due change
-            in the application software version also wasting paper at a large scale because
-            of above issues and many we have completely optimised the way of getting a fast
-            and more efficient way of getting print so that we can save our time and get more
-            efficient result. </pr>
-            <br />
-            <br />
-            <p>
-                REFERENCES.
-                <br />
-                1.”Leveraging Spatial Diversity for Privacy-Aware Location Based Services in Mobile
-                Networks” Xiaofan He, Member, Richeng Jin, Student Member, Huaiyu Dai.
-                <br />
-                2.” Achieving Location Privacy through CAST in Location Based Services” Ruchika
-                Gupta and Udai Pratap Rao.
-                <br />
-                3.” A Collaboration-Based Scheme for Location-Based Services with Incentive Mechanism”
-                WAN Sheng, HUA Jiafeng, ZHUHui1, WANG Hanyi and LI Fenghua.<br />
-                4.” Efficient and Privacy-preserving Polygons Spatial Query Framework for Location-based
-                Services” Hui Zhu, Member, Fen Liu, and Hui Li, Member.<br />
-                5.“Method for Estimation and Optimization of Printer Speed Based on Character Usage
-                Statistics” E. B. Eichelberger, W. C. Rodgers, E. W. Stacy.
-                <br />
-                6.” Sampling Optimization for Printer Characterization by Greedy Search” Ján Moroviˇc,
-                Jordi Arnabat, Yvan Richard, and Ángel Albarrán.<br />
-                7.” Sampling Optimization forPrinter Characterization by Direct Search” Simone Bianco,
-                Member and Raimondo Schettini, Member.</p>
-            <br />
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="index.html">Milind Singh Dev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item " >
+              <a class="nav-link" href="skills.html">Skills </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/milindsingh98" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/milindsinghdev/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
         </div>
-        <input type="button" class="btn btn-grd" name="show" id="btn1" value="Show More"
-            onclick="btn1()" /><br />
-    </div>
-    <div class="project1" id="project2">
-        <h1>
-            Efficient Garage Collection Bins and Garbage Management</h1>
-        <br />
-        <br />
-       <p style="text-align: left;">
-            The project is a total reformation of the garbage collection and a new model which
-            is optimized to collect the garbage.<br />
-            <br />
-            - The garbage bins have a new design of the trapezoid. It has a Radio Frequency
-            transmitter which transmits the radio signal to the Collection hub.
-            <br />
-            - Since the dustbins positions are stationary each radio transmitter is fixed at
-            a position and when the dustbin is full. It sends the signal.<br />
-            - The signals are collected and the coordinates are put in the shortest path algorithm
-            to find the shortest path for the collection truck.<br />
-            - This way it saves up a lot of fuel, avoids the overflowing trash bins,
-            <br />
-            - Using ML, A trend between the data can be set and a schedule can be formed for
-            collection of garbage.<br />
-        </p>
-        <div id="project02" style="display: none">
-            <div>
-                <p>
-                    Abstract—The waste management in India has not changed a lot in past decades. The
-                    collection bins, collection method and disposal have been quite same. This paper
-                    proposes a system which gives a new design, placement of garbage bins. The connection
-                    and communication of all the bins to the base station. The location of the dustbins
-                    are kept stationary and all the location are stored at the base center along with
-                    the unique bin ID’s. The transceivers are placed on every dustbin which transmits
-                    the signal to the base station which indicated whether the dustbin is full or not.
-                    The routing algorithms are used to find the shortest path which connects to all
-                    the dustbins. The collection trucks follows the optimized route for facilitation
-                    and it saves fuel , brings accordance to the system.
-                    <br />
-                </p>
-                <p>
-                    I. INTRODUCTION
-                    <br />
-                    The Garbage collection bins which are used by the municipal corporation often comes
-                    in the same pattern. Since couple of decades there has been talks about the efficient
-                    garbage management and disposal but the garbage collection bins have not changed
-                    much in the year. The structure has been the same in the years. There have been
-                    garbage collection[4] trucks with the fork lifters to reduce the manual work. The
-                    problem which still is stagnant in India is not the garbage but the garbage bins
-                    and the sizes which they come in. We all have noticed the spillage of garbage outside
-                    of the bins. The question arises who is responsible for it? In this paper we mention
-                    the improvised design of the dustbins and how they can be made more efficient. To
-                    find the answers to the question “Why do people still litter garbage outside dustbin
-                    rather than putting in the bins?” There were a lot of answers I got from the people
-                    that I would like to mention in this paper. • The height of the dustbins that makes
-                    people vulnerable to throwing heavy garbage bags into the bins. • The typical smell
-                    that comes from the dustbins. • The overflowing bins which make them to throw the
-                    garbage nearby. • In rains the dustbins are filled with water and there is no space
-                    left for the garbage. • There is no optimized path on which the collection truck
-                    collects and moreover the base station does not know whether and when the dustbins
-                    are full.<br />
-                </p>
-                <p>
-                    II. EASE OF USE
-                    <br />
-                    • The proposed system has a different and more efficient material used for the dustbin
-                    design.<br />
-                    • It takes care of which dustbin is full and needs to be emptied thus not allowing
-                    waste to litter around the dustbin.
-                    <br />
-                    • It solves the problem of foul smell spreading from the bins.
-                    <br />
-                    • Waste doesn't gets stuck to the dustbin walls making it easier while emptying
-                    them.
-                    <br />
-                    • It reduces the number of flies breeding over the bins.<br />
-                    • Clogging of water does not occur due to the rubber stoppers.
-                    <br />
-                    • The bins don't displace from their respective spots as they are placed inside
-                    holes.
-                    <br />
-                    • The mosquitoes which accumulated due to the stagnant water in the dustbins will
-                    come down to 0.
-                    <br />
-                    • There will be ease of use and people will easily be able to throw the garbage
-                    without facing the difficulties they faced.<br />
-                    • The dustbins will be placed intact and will not fall down as the existing system.
-                    <br />
-                    • The smell will be lowered down that comes out of the dustbins by the use of epoxy
-                    resins.
-                    <br />
-                    • The traditional iron dustbins will be replaced by the hard PVC dustbins which
-                    would not rust and will be lighter in weight.
-                    <br />
-                    • The stray animals will not be able to get into the dustbins which would prevent
-                    several diseases that are caused to them.
-                    <br />
-                    • They will be environment friendly.
-                </p>
-                <p>
-                    <br />
-                    I. PROPOSED SYSTEM The proposed system is the new design of the dustbins and it
-                    will cover all the problems which are faced by the people. The basic structure of
-                    the dustbins will be of the inverted trapezoid. The inverted trapezoid is chosen
-                    because the surface area is larger at the bigger end and it can hold more garbage
-                    than the cube and cuboidal bins. The inverted bin will be covered with a hemisphere
-                    which will cover one side of the dustbin such that if someone even aims into the
-                    dustbins than it doesn’t fall off from the other end. The height of the dustbins
-                    can’t be trimmed but to make the dustbins feasible they can be placed up to 2-2.5ft.
-                    in the ground. They can be still emptied and lifted by the fork lifter trucks. The
-                    concrete walls of the ground will prevent the moisture and damage to the dustbins.
-                    A rubber ring will be placed on the top such that there is no direct contact of
-                    the dustbins with the ground and placing rubber ring will also ensure that during
-                    the emptying of the dustbins the walls are intact and are not damaged and the dustbins
-                    will also be in intact shape. The proposed rubber ring will also provide the seal
-                    which would not allow the rain water to enter below the bins. The hemisphere covers
-                    on the dustbins will not let the rain water to stagnate in bins. The smell that
-                    comes out of the dustbins will also be reduced by the lid. The lid will be detachable
-                    so that while the garbage collection the lid can be removed and the garbage can
-                    be easily loaded into the trucks for dumping. The foul smells that comes out of
-                    the dustbins can be lowered by using epoxy resins and the dustbins inner walls will
-                    be painted will Hydrophobic paints so that nothing sticks on the wall of the container.
-                    The trucks are fitted with the The sensors are attached to the dustbin to check
-                    when the dustbin is full and the signal is sent when the dustbin is at 75% capacity
-                    to consider the time of commute by the collection trucks and routing. Raspberry
-                    pie is used to create the circuit. The photosensor is used to maintain the circuit
-                    closed between the laser and the senor. As the garbage falls, the circuit is broken
-                    and the timer of 100 seconds start. If the circuit is restored then the timer stops.
-                    If the circuit does not get closed even after 100 seconds then the RF transceiver
-                    is started. The status signal of the dustbin is sent along with the dustbin ID.
-                    As the transceiver transmits the signal, the whole sensor system goes in battery
-                    saver mode, until the dustbin is emptied. The sensor uses rechargeable battery which
-                    theoretically should last for a month. The Existing dustbins do not have any sensors
-                    and are neither connected through anyways to the base stations. The Proposed system
-                    provides the connection to each and every dustbin. To provide the connections to
-                    each and every dustbin we are using the radio frequency[3] waves. The system is
-                    based on the GoTenna technology developed in U.S. for SOS services. It uses the
-                    unlicensed frequency bandwidth to transmit the information from the user device
-                    to the base stations. The TCP/IP protocol and OSPF are being used for transmitting
-                    and securing the data. The radio frequency transceiver will transmit outboard messages
-                    to the base stations. The location of the dustbins will be pre-stored at the base
-                    station and every dustbin will get a unique id along with the location co-ordinated.
-                    The signal is sent on unlicensed Radio spectrum[1]. The unlicensed low frequency
-                    bandwidth available in India is 865MHz to 867MHz. The purpose of using low frequency
-                    bandwidth is that they don’t interfere with the Mobile communication and other bandwidth.
-                    The Transceiver is connected to the Raspberry pie and an antenna allows the transmission
-                    of the signal. The battery of the transceiver in theories should last for 15-20
-                    days. The signal includes the unique ID of the dustbin. As the signal reaches the
-                    base station, The ID is recorded in the table and then routing algorithm is applied.
-                    Process flow diagram for sending signal The base station receives the ID’s pulls
-                    out the location of the dustbins by ID. The location co-ordinates then are mapped
-                    and shortest path[2] calculation is used. Firstly, convex hull is used to map the
-                    outline and give the approximate distance to each destination and Dijkstra’s algorithm
-                    is used to find the distance keeping the starting location as the base station then
-                    the shortest path which connected to all the dustbins which are full are calculated
-                    and the path is followed. This optimized route saves fuel and also increases the
-                    efficiency of the system. From the statistics the system can further predict where
-                    the demand is more and where it is less and thus leading to more effective routing.
-                </p>
-                <br />
-                <p>
-                    II. NEED FOR EFFICIENT SYSTEM<br />
-                    • The design of municipal bins that are used for Garbage collection have not changed
-                    in past 15 years.
-                    <br />
-                    • The Garbage collection method has been the same.<br />
-                    • The bins used are not up to the population demand and the waste thrown by them,
-                    which leads to the overflowing garbage.
-                    <br />
-                    Issues faced by the people are often overlooked. Some of the issues are-
-                    <br />
-                    The height of the dustbins that makes people vulnerable to throwing heavy garbage
-                    bags into the bins.
-                    <br />
-                    • The typical smell that comes from the dustbins.
-                    <br />
-                    • In rains the dustbins are filled with water, making them breeding grounds for
-                    mosquitoes.
-                    <br />
-                    The bins that are used are made from iron which makes them vulnerable to rusting.
-                    <br />
-                    • Iron gets degraded due to biological actions that occurs in the waste.<br />
-                    • The dustbins used are open which let all the fowl smells out from the dustbins.
-                    <br />
-                    • The height of the dustbins are close to 5 feet and the average height of Indian
-                    people is(Source: Imperial College London) are 5feet 4 inches, and the open structure
-                    of dustbins makes it hard for the people to throw the garbage due to fowl smells
-                    and the height of the dustbins.
-                    <br />
-                    • People try to aim the garbage bags into the bins because of the smell and the
-                    stray animals standing nearby which don’t allow people to reach nearby.
-                </p>
-                <p>
-                    <br />
-                    REFERENCES [1] Jorge Perdomo , New York , NY ( US), “SYSTEM AND METHOD FOR DIGITAL
-                    COMMUNICATION BETWEEN COMPUTING DEVICES,” ) United States Patent Perdomo.
-                    <br />
-                    2] MICHEL GENDREAU, GILBERT LAPORTE & SYLVAIN YELLE EFFICIENT ROUTING OF SERVICE
-                    VEHICLES, Journal Engineering Optimization
-                    <br />
-                    [3] H.D. Sherali ; C.M. Pendyala ; T.S. Rappaport “Optimal location of transmitters
-                    for micro-cellular radio communication system design,” in IEEE Journal on Selected
-                    Areas in Communications ( Volume: 14 , Issue: 4 , May 1996 )
-                    <br />
-                    [4] Hoornweg, Daniel Thomas, Laura Urban Development Sector Unit (EASUR) [Corporate
-                    Author], “What a waste : solid waste management in Asia,” .<br />
-                </p>
+      </nav>
+
+      <br>
+      <br>
+
+    <!-- Projects card -->
+    <div class = 'container'>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+            <div class="card">
+                <a href="https://github.com/milindsingh98/Face-Recognition-Flask-App">
+                    <img src="static/images/flaskappp.jpg" class="card-img-top" alt="Open-CV-flask-app"></a>
+                <div class="card-body">
+                <h5 class="card-title">
+                    <a href="https://github.com/milindsingh98/Face-Recognition-Flask-App">Face Recognition Flask App using OpenCV</h5>
+                    </a>
+                <p class="card-text">The Facial Recognition Flask App to identify gender from images and videos using the Machine Learning model to classify the images, between Male and Female. The project uses SVM, Numpy, Pandas, Matplotlib, PIL, CV2, Sci-kit Learn.</p>
+                </div>
             </div>
-        </div>
-        <input type="button" class="btn btn-grd" name="show" id="btn2" value="Show More"
-            onclick="btn2()" /><br />
-    </div>
-    <div class="project1" id="project3">
-        <h1>
-            Optimized Deals And Discount at Mall Entrance<br />
-            <br />
-        </h1>
-        <p style="text-align: left;">
-            The project is the efficient use of Geo-location and the shopping experience.<br />
-            - The Android Application gives the user information about the deals and discounts
-            that are currently going on in and around the mall.<br />
-            - The location of the user is accessed and as the user enters a mall. The application
-            sends him/her notifications about the offers.<br />
-            - The user can also look for products that are on sale in the application and order
-            them from the application itself.<br />
-            - The facilitation provided does increase the sales as the user doesn't have to
-            roam around looking for the offers. They can check on the app itself.<br />
-            - Inner mall map can be generated to guide the user to the shop location inside
-            the mall.<br />
-        </p>
-        <div id="project03" style="display: none">
-            <p>
-                <p>
-                    Abstract- As the technology keeps improving drastically the customer's requirement
-                    increases day by day, mainly on mobile devices. In this paper we are trying to explain
-                    the importance of Location Based system, as by the medium of shopping. Online shopping
-                    is done by everyone in this world but that’s time consuming. So, we proposed a smart
-                    location based smart shopping application for android devices. With the help of
-                    GPS and the application it can be implemented. The offers and discount running around
-                    the mall or shops will be available as the notifications on user’s device as soon
-                    as user enters the shop. The location information in shopping application (SAGO)is
-                    produced by the Geo-Position of the user's device. The use of application is that
-                    a user searches a product, then the SAGO identifies the location and searches for
-                    it in the closest stores and mall and the online payment can be done for the products
-                    listed on the application and user then can directly go to the store and collect
-                    the item. By this a area of 2-4 Km can be covered and be searched for the products.
-                    As there is Location based system through maps also we can look for the store as
-                    well as the products and make online payment by which shopping will be easy and
-                    within less time we have to just go and pick up the product.
-                </p>
-                <br />
-                <p>
-                    Introduction- On Smart phones and mobile devices the technology keeps on increasing,
-                    the idea of handsets is to deliver valuable and effective services. In the past
-                    few years, Location based systems have become for wide-ranging applications such
-                    as navigation and monitoring. In recent years, the shopping experience and trends
-                    have changed a lot that too drastically .In this paper we are trying to explain
-                    the importance of location based application as by the medium of Smart shopping
-                    application .As the online shopping is quiet common and we get variety of things
-                    in it but it is time consuming , as we search, wait for the product to come etc.
-                    so we have the idea of Smart shopping application using location based services
-                    and GPS it can be implemented. The main motive or use of the application is that
-                    user searches a product and through location the application searches the product
-                    in the nearest store or malls as such. As in fact there is also a medium of online
-                    payment which will be implemented. The user just has to buy the product online and
-                    just have to go to collect the product this is how it works. Also shop owner can
-                    add, delete, update, modify the items. It shows the deals, discounts, offers entered
-                    by the shopkeeper. LBS or location-based services is referred to a set of applications
-                    that exploit the position of mobile device to give information. Location-based services
-                    (LBS) provide the clients with services according to their location as such. A new
-                    area for the developers and the network operators to implement the value addedservices
-                    by the service providers E.g. providing routing information, traffic status and
-                    at last finding the mall and the shop. Therefore, location-based services have certain
-                    merits on the clients of mobile users as:
-                    <br />
-                    - 1.Receiving the location of lost<br />
-                    2.To get the location of and Banks, Hotels, and other services.
-                    <br />
-                    3.Receive alerts and notifications for the Traffic jams and Shopping alerts. Location
-                    based Services can be distinguish in 3 categories<br />
-                    a) Consumer Services - These are the sets of the location-based applications which
-                    does help in accessing the multiple services such as Map Navigation. As we get the
-                    location of two places. Advertising as such in shopping mall near to your location.
-                    <br />
-                    b) Emergency Services- During emergency the location of the mobile client can be
-                    traced or we have different hazards to get the location
-                    <br />
-                    c) Preferred Location Search- As by the terms preferred it also searches of ATM
-                    and Restaurants but within a given boundary such as 5 to 15 kms range from the current
-                    location. To track the position of the mobile the accuracy of the positioning methods
-                    in real time is taken by the approach used as Location can be represented by text
-                    descriptions or spatial location.<br />
-                    A spatial location consists of latitudelongitude- altitude coordinate system. Altitude
-                    is taken as meters above sea level and longitude as 0-180 degrees and latitude as
-                    0-90 degrees north or south. The current location of the mobile client can be retrieved
-                    by-<br />
-                    1) Satellites.
-                    <br />
-                    2) Mobile Phone Service Provider Network. The new technology that integrates the
-                    mobile network with the GPS is the Assisted-GPS. This is there to give a accuracy
-                    of 5 to 10 meters. Within a second the problem is being fixed, has better coverage
-                    in some cases, as it requires few satellites and less consumption of energy. The
-                    disadvantage is cost of AGPS enabled handsets for the user.
-                </p>
-                <br />
-                <p>
-                    4. Proposed system In this system, the user will search the item which you want
-                    to purchase with the help of the app. Now unlike the old system the app now also
-                    gives pop-up notification for all the discounts and deals. Immediately whenever
-                    we enter the mall we get all the details of every shop and it highlights all the
-                    offers going on around. The proposed system works on location-based services. The
-                    system has two sides- the client side And the server side. The client-side works
-                    on the front end. The client side allows user to register for the app so that the
-                    app can access the location of the user and they can search for products. It will
-                    also show offers and discounts on the screen that can be availed from the shop.
-                    Also from the client side, the customer can choose checkout and pay online or else
-                    the user can directly go to the shop and buy their product. The server side is the
-                    back end of the app or the side that is controlled by the shop owner. The shop owner
-                    has a separate registration option. Once the owner has registered in the app, they
-                    can add the current deals and offer going on in the particular shop which will be
-                    displayed on the customer side. The location services is a method to detect your
-                    current location and all the stores near you to show all the discount offers going
-                    around. In our proposed system we can not only view a particular product but also
-                    add them to cart for a faster checkout. Our system also includes the ease to do
-                    payments through online payment gateways for faster check out process. The use of
-                    web services is a must for our system. The web service is a method of communication
-                    between two electronics devices over a network. As the connection is established,
-                    the user is now connected with the database and information related to that item
-                    is provided to him. In this whole procedure the overall time of searching of individual
-                    products is saved and thus reducing the time of the shopping.
-                </p>
-                <br />
-                <p>
-                    MODULES OF THE PROJECT
-                    <br />
-                    A. CUSTOMER SIDE MODULE  Registration: the customer first needs to register to
-                    our app So that we can access their location and they can search products.  Get
-                    Location: The location of the customer will be taken directly through Google maps
-                    and the notification will come and the all the deals will be showed in the mall
-                    at that time.  Product Offer: The current offers and deals of particular shop will
-                    be shown on the screen and customer can avial all the offers through the shop. 
-                    Searching shop: The customer can search the shop and the product list along with
-                    deals and offer will come on the screen.  Buying: The customer can choose, either
-                    they can buy through online payment options or can go to the shop directly and buy
-                    their product.<br />
-                    B. SHOP OWNER SIDE MODULE  Registration: The shop owner has to register through
-                    the app so that they can list all the deals and offer currently going on and all
-                    the product according to their choice.  Add deals and offer: The shop owner can
-                    add the current deals and offer going on in the particular shop which will be displayed
-                    on the customer side.  Add product: The shop owner can add all the product details
-                    and price,image ,description etc.  Modifications: The shop owner can modify deals
-                    and product at any point of time according to his choice.
-                </p>
-                <br />
-                <p>
-                    6. Algorithms A. Agglomerative algorithm The agglomerative algorithm is mainly used
-                    for clustering the results. It is a “bottom-up approach, pair of objects or clusters
-                    are merged as they come up in hierarchy. Traditional hierarchical algorithms use
-                    similarity, proximity matrix. Operations carried out-
-                    <br />
-                    1. The similar products are grouped using their prices that are mentioned on them.
-                    <br />
-                    2. The output of the first is the input for this operation, and it is the normalization
-                    process
-                    <br />
-                    <br />
-                    Xprice Normalizaton(Xprice) = MAXprice Xprice = Representative price of the product
-                    metioned MAXPrice = Selected price from the product result list Price of products
-                    is scaled between 0 and 1.<br />
-                    <br />
-                    This is needed for presenting the products in a two dimension coordinate system
-                    and also the total calculation time is low. B. Greedy Search Algorithm The greedy
-                    algorithm is used for removing the unrelated information from the data. The products
-                    are filtered as they come from the internet resources. The algorithm is modified
-                    according to the mobile application’s requirements. C. Smart Filtering Algorithm
-                    The application uses clustering approach to help the smart filtering to search products
-                    details on the application easily. The algorithm takes the text as the input and
-                    the processed texts or filtered texts as output. The common processing operations
-                    are-  Common strings or words are removed using a list of stop words.  Uppercase
-                    letters are transformed to lowercase letters.  Special symbols are removed and
-                    sequences of multiple spaces are reduced to one space gap.  Numbers and dates are
-                    further transformed into a standard format.  The suffixes and prefixes are removed
-                    from the keywords. Compute the distance/proximity matrix between the input data
-                    points, if necessary. Let each data point be a cluster Repeat Merge the closest
-                    two clusters Update the distance/proximity matrix Until Only one cluster remains
-                     Automatic keyword extraction for accurate search results  Word ranking. D. IR2
-                    Tree The current systems search the location on the basis of their geometric locations.
-                    We in this application are going to use the existing the GPS services. The malls
-                    and shops marked on the map will be reflected in the list format in the application
-                    according to the location. As the user enters the mall, the application will access
-                    the location and display the deals and discount according to that location and gives
-                    the notification to the user.
-                </p>
-                <br />
-                <p>
-                    IMPLEMENTATION This location-based application uses the input in the form of the
-                    user location. Location based service is another key feature of the smart phone
-                    applications. This app combines with the Maps installed on the system device to
-                    get the efficient and accurate location. This application works on android and the
-                    API versions above 6.0. The application requires and requests the periodic update
-                    of the location of the user. The application on installing asks for permission to
-                    access the user location. The application can also register a intent receiver for
-                    proximity alerts – Basically when the customer enter and exited from an area of
-                    given latitude and longitude radius.  Creation of user account and client account.
-                     Adding and editing of tasks  Storing the information and tasks in the SQLite
-                    database  Tracking the location and displaying it  Viewing the deals and discount
-                    as notification  Displaying the products listed by clients on the application 
-                    Providing a payment mode to buy products on app itself  Retrieving the information
-                    on the mobile device A. Service Supplication The service application running in
-                    background will track the user location continuously. Android Software Development
-                    kit (SDK) does not provide a special intent that can notice the change in the location.
-                    For location detection we use Broadcast receiver – BOOT_COMPLETED event. Therefore,
-                    as once the device is booted on the location services is supplied automatically
-                    using the app’s service routine. Permission has to be set in the android manifest
-                    file. There are further division of classes of division in location API package
-                    to retrieve the location information from the user.  LocationManager- This class
-                    provides access to the location services as well as provides facility to get the
-                    best location provider as per the Criteria.  LocationListner- It provides the callback
-                    methods which are provided when the location is changed. The listener object is
-                    registered within the location manager class.  LocationProvider- It’s an abstract
-                    super class for location providers. A location provides the periodic information
-                    of the geographic location of the device.  Criteria – It provides the application
-                    choose the suitable location provider by providing access to set of required properties
-                    of the Location Provider. In this application we will use the API provided by google
-                    maps. With the help of the google maps we can provide the device’s more accurate
-                    information and it Google maps API also gives the notification to the customer about
-                    the mall they entered and provide with the internal map of the map .This will help
-                    us to optimize our application and work it more efficiently. B. Database The application’s
-                    task data is stored in the SQLite database. This can be viewed by using the third-party
-                    browser while running the program. The database will store the following information
-                    within it.  A table will store all the information about the customer which will
-                    include their NAME, MOBILE NUMBER, DATE OF BIRTH, E-MAIL ID, COUNTRY, STATE, CITY,
-                    PINCODE.  Another table will contain all the data of the shops and outlets in the
-                    mall. This table will store their SHOP/OUTLET NAME, PASSWORD, ADDRESS, NAME OF MALL,
-                    LOCATION (it will be fixed),CONTACT NUMBER,GSTIN NUMBER,PAN NUMBER.  The deals
-                    and discount provided by the clients are stored in another table which has fields
-                    like category, type , price range , percentage of discount , validity of the discount
-                    , clock timer , products(optional) on discount, brands , terms and conditions ,
-                    images2 , image of the product , price of the product , acceptance of payment mode
-                    . This table is directly connected to the homepage of the application and the information
-                    stored here will be displayed there in the proper alignment and proper presentation
-                    elements. The latitude and longitudes of the customers as well as the clients are
-                    stored in the backend of the MySQL backend. C. Deals and discount Information Retailers
-                    can publish the information about the deals and discounts directly through the app
-                    provided to them and logging in to their accounts. They can add the deals and discounts
-                    and update It according to their needs. The images, percentage, The amount of discount
-                    can be posted through the app. The type form kind of outlet will facilitate the
-                    retailers and make it at their ease to publish the data. They will also be able
-                    to list their products in case they have the sale on certain products. They can
-                    update the photo, descriptions and label of the products, with the MAX price as
-                    well as the discounted price. The discount percentage and the difference will be
-                    calculated directly be the application and displayed to the customers.
-                </p>
-                <br />
-                <p>
-                    PROTOTYPE MODEL A prototype is an early approximation of a final system or product.
-                    It is a system development method as it can be reworked, build and tested. Until
-                    a complete prototype is built and developed as acceptable to the system. It is a
-                    trial-and error process that takes place between two, as developers and users. This
-                    prototype should be as the final review after the product is developed and acceptable.
-                    8. Acknowledgements We take this opportunity to thank our project guide Prof. Ganesan
-                    Dhandapani for their guidance and providing all the necessary facilities for this
-                    paper.
-                </p>
-                <br />
-                <p>
-                    Conclusion This paper represents developed mobile shopping android application for
-                    mobile users that searches and lists the desired shop with location information
-                    and the deals and offer present. The main idea is to get the list and product offer
-                    from each local store with in the mall and smartly listed product list. The main
-                    aim of this project is to overcoming the drawbacks of both type of shopping i.e.
-                    online and offline, so that one can have enhanced shopping experience and shop smartly
-                    and can shop both online and offline manner. This application provides safety, security,
-                    reliability the customer can actually feel the quality of the products and also
-                    through safe payment options we can easily skip the queue and old ways of shopping.
-                    Smart phones, plays an important role in our day to day life, have reduced all the
-                    efforts that are required for shopping using online shopping application and enhance
-                    a smart and secured way of shopping.
-                </p>
-                <br />
-                <p>
-                    REFERENCES<br />
-                    1.“Smart Shopping: Location Based an Android Application” by Lokhande Priyanka Vitthalrao,
-                    Abhale Priyanka Mahendra, Kumkar Monali Madhav, Mundhe Sandhya Bhausaheb MCOERC,
-                    Nashik, Pune, India.<br />
-                    2. “Smart Location-Based Mobile Shopping Android Application” by Günay Gültekin,
-                    Oguz Bayat.<br />
-                    3. “Implementation of Location based Services in Android using GPS and Web Services”
-                    by Manav Singhal, Anupam Shukla<br />
-                    4. “A Mobile Indoor Positioning System Based on iBeacon Technology” by Xin-Yu Lin,
-                    Te-Wei Ho, Cheng-Chung Fang, Zui-Shen Yen, Bey-Jing Yang, Feipei Lai
-                    <br />
-                    5. "Smart Shoppe using Beacon” Rajat Pugaliya, Jaydip Chabhadiya, Nirav Mistry and
-                    Ankit Prajapati
-                    <br />
-                    6. “Where2Buy: A Location-based Shopping App with Products-wise Searching” by Kin
-                    Chi Chan, Tak Leung Cheung, Siu Hong Lai, Kin Chung Kwan, Hoyin Yue and Wai-Man
-                    Pang.<br />
-                    7. J. Paek, J. Kim, and R. Govindan. "Energy-efficient rate adaptive GPSbased positioning
-                    for smartphones." in Proc. of ACM MobiSys'10, San Francisco, California, 2010, pp.
-                    299-314.<br />
-                    8. Z.Zhuang, K. Kim, and J. Pal Singh. "Improving energy efficiency of location
-                    sensing on smartphones." in Proc. of ACM MobiSys'10. San Francisco, California,
-                    2010, pp. 315-329 .
-                    <br />
-                    9. Lin, K, A Kansal, D Lymberopoulos, and F Zhao. "Energy- accuracy trade-off for
-                    continuous mobile device location." in Proc. of ACM MobiSys'10. San Francisco, California,
-                    2010, pp. 285-297.
-                    <br />
-                    10. SafinaShowkatAra, Zia UshShamszaman, and Ilyoung Chong, “Web-of-Objects Based
-                    User-Centric Semantic Service Composition Methodology in the Internet of Things”,
-                    International Journal of Distributed Sensor Networks, Vol. 2014, Article ID 482873.
-                    11. A. Cannata, M. Gerosa, M. Taisch, "SOCRADES: Framework for Developing Intelligent
-                    Systems in Manufacturing," IEEE (2008). 12. J. Lian and T. Lin, "Effects of consumer
-                    characteristics on their acceptance of online shopping: Comparisons among different
-                    product types,"Comput. Hum. Behav., vol. 24, pp. 48-65, 2008. 13. J. Carlos Roca,
-                    J. Jos Garca and Jos de la Vega, Juan, "The importance of perceived trust, security
-                    and privacy in online trading systems,"Information Management & Computer Security,
-                    vol. 17, pp. 96-113, 2009. 14. AdarshBorkar, MadhuraAnsingkar, MonaliKhobragade,
-                    PoojaNashikkar, ArtiRaut ,”Smart ShoppingAn Android Based Shopping Application ”
-                    International Journal of Advanced Research in Computer Engineering & Technology
-                    (IJARCET) Volume 4 Issue 3, March 2015 . 15. KushalSinghal, GandharRane, (Professor)
-                    AmrutaAmbre, Nikhil Surve, JayeshSonawane , “Location Based Reminder: An Android
-                    Application ” International Journal of Advanced Research in Computer Science and
-                    Software Engineering Research Paper .
-                </p>
-            </p>
-        </div>
-        <input type="button" class="btn btn-grd" name="show" id="btn3" value="Show More"
-            onclick="btn3()" /><br />
-    </div>
-    <div class="footer" style="font-size: 12px;">
-        <div style="float: left; margin-left:20px">
-            <i class="fa fa-copyright"></i>Milind Singh Dev, 2019
-        </div>
-        <div style="float: right; font-size: 24px; margin-right:20px">
-            <a href = "mailto:milindsingh98@gmail.com" target="_blank"><i class='fab   fa-google' style='font-size:24px'></i></a>
-            <a href = "https://www.facebook.com/milind.singh.188" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href = "https://www.instagram.com/milind_singh_dev/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href = "https://github.com/milindsingh98" target="_blank"><i class="fab fa-github-square"></i></a>
-            <a href = "https://www.linkedin.com/in/milindsinghdev/" target="_blank""><i class="fab fa-linkedin-square"></i></a>
-            <a href = "https://www.milindsinghdev.wordpress.com" target="_blank"><i class="fab fa-wordpress"></i></a>
-            <a href = "https://www.hackerrank.com/milindsingh98/" target="_blank"><i class="fab fa-hackerrank" style="font-size:24px"></i></a>
+            </div>
+            <div class="col mb-4">
+            <div class="card">
+                <a href="https://github.com/milindsingh98/Tinder-swipe-bot-2020">
+                    <img src="static/images/tinder_bot.jpg" class="card-img-top" alt="tinder-bot">
+                </a>
+                <div class="card-body">
+                    <a href="https://github.com/milindsingh98/Tinder-swipe-bot-2020"><h5 class="card-title">Tinder Swipe Bot using Selenium for Python</h5></a>
+                <p class="card-text">This Project automates the process of right swiping on Tinder. It makes use of Selenium for python and Chrome Webdriver on which the code is run and automation operation operates.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col mb-4">
+            <div class="card">
+                <a href="https://github.com/milindsingh98/password_checker">
+                    <img src="static/images/password checker.jpg" class="card-img-top" alt="password-checker">
+                </a>
+                    <div class="card-body">
+                    <a href="https://github.com/milindsingh98/password_checker"><h5 class="card-title">Password Checker using Python</h5></a>
+                <p class="card-text">This project is build using python and it can tell whether the passwords a user use has been pawned/leaked in the security breaches and attacks. It gives the number of times a password was hacked and suggests whether to change a passowrd or if it is a strong password which has not been pawned.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col mb-4">
+            <div class="card">
+                <a href="https://github.com/milindsingh98/Heart-Disease-Classification-Machine-Learning-Problem">
+                <img src="static/images/machinlearning.jpg" class="card-img-top" alt="machine-learning">
+                </a>
+                <div class="card-body">
+                    <a href="https://github.com/milindsingh98/Heart-Disease-Classification-Machine-Learning-Problem"><h5 class="card-title">Heart Disease Classification using Machine learning</h5></a>
+                <p class="card-text">This project checks whether a patient has heart disease or not with accuracy of 93%. The classification on different categorical features and the ensemble model is used in this classification problem "Random Forest Classifier".</p>
+                </div>
+            </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="static/images/Optimized printer waiting time for domestic and educational purposes.png" class="card-img-top" alt="Optimized">
+                    <div class="card-body">
+                        <a href="https://github.com/milindsingh98/Heart-Disease-Classification-Machine-Learning-Problem"><h5 class="card-title">Optimized Printer waiting time (concept)</h5></a>
+                    <p class="card-text">The project deals with the domestic convenience and educational services  <br>
+                        - An Android application that will ask the user to upload the file he/she wants to get printed. Then the app will ask the format including margin, font, font size etc.  <br>
+                        
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="static/images/Blue Bag Internet Logo.png" class="card-img-top" alt="Optimized">
+                        <div class="card-body">
+                            <a href="https://github.com/milindsingh98/"><h5 class="card-title">Loan Approval classification deep learning model</h5></a>
+                        <p class="card-text">This project uses deep learning and feature engineering, using many categorical features to perfrom a binary classification to calculate whether the loan should be given to an applicant or not.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
         </div>
     </div>
     
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
+    <!-- Footer -->
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Milind Singh Dev <i>Currently working as a Programmer analyst trainee at Cognizant. </i> 
+                Graduated from SRM Institute of Science and Technology in Computer Science Engineering. I have completed my 
+                internship with Cognizant Technology Solutions from January 2020 to May 2020, under the domain Cognizant
+                 Digital Business– AIA (Artificial Intelligence and Analytics). I have done various projects using Python, 
+                 Machine learning, Data Science, HTML- CSS, flask, Teradata, Oracle, and MySQL database. </p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Key Skills</h6>
+              <ul class="footer-links">
+                <li>Machine Learning</li>
+                <li>Python</li>
+                <li>Data Structures</li>
+                <li>C/C++</li>
+                <li>MySQL and Teradata</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+  
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="milindsinghdev"><a class="LI-simple-link" href='https://in.linkedin.com/in/milindsinghdev?trk=profile-badge'>Milind Singh Dev</a></div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+           <a href="#">Milind Singh Dev</a>.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/milind.singh.188/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/milindsingh98"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/milind_singh_dev/"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="github" href="https://github.com/milindsingh98" target="_blank"><i class="fa fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    
+
+        <!-- Javascript files -->
+        <!-- bootstrap js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <script type="text/javascript" src="static/js/func.js"></script>
+    </body>
 </html>
