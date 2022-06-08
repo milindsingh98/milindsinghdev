@@ -50,7 +50,7 @@ a{
 .about{
         padding: 1%;
         text-align: center;
-        /*background: linear-gradient(to left,rgba(255,150,246,.8),rgba(91,149,213,.8));*/
+        background: linear-gradient(to left,rgba(255,150,246,.8),rgba(91,149,213,.8));
 }
 
 .img-fluid{
